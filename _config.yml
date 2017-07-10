@@ -1,2 +1,31 @@
-name: Shashant Panwar
-theme: jekyll-theme-architect
+# top level stuff you probably don't need to touch
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://panwars87.github.io/
+baseurl: /home/
+title: Shashant Panwar
+author: Shashant Panwar
+description: Personal blog and resume
+avatar: sagipug.jpg
+email: shashant@panwars.com
+github: panwars87 # username
+twitter: shashant.panwar
+linkedin: shashant-panwar-41271915
+stackoverflow: 2528481/panwars87   #e.g: users/2735833/proton1h1
+
+#Comment out if you don't want disqus 
+#disqus: username
+#google_analytics: UA-69391421-1
+
+# needed for travis-ci build
+exclude: [vendor]
