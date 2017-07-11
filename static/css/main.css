@@ -164,6 +164,15 @@ body {
   font-size: 18px;
 }
 
+.me {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+    margin-bottom: 20px;
+}
+
 /* Footer 
 -------------------------------------------------- */
 

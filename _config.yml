@@ -6,13 +6,13 @@ rdiscount:
 permalink: /:title.html
 paginate: 5
 gems: [jekyll-paginate]
-port: 4000
+port: 3000
 safe: true
 
 
 # edit here to achieve your personal greatness
 url: http://panwars87.github.io/
-baseurl: /home/
+baseurl: /profile/
 title: Shashant Panwar
 author: Shashant Panwar
 description: Personal blog and resume
@@ -23,6 +23,7 @@ twitter: shashant.panwar
 linkedin: shashant-panwar-41271915
 stackoverflow: 2528481/panwars87   #e.g: users/2735833/proton1h1
 
+resumeurl: http://panwars87.github.io/vitae/
 #Comment out if you don't want disqus 
 #disqus: username
 #google_analytics: UA-69391421-1
